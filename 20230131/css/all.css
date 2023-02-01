@@ -993,6 +993,11 @@ section {
   text-align: center;
   margin: 20px auto;
 }
+@media (max-width: 768px) {
+  .line {
+    width: 300px;
+  }
+}
 
 .text_a_j {
   text-align: justify;
@@ -1013,6 +1018,10 @@ section {
 
 .now {
   bottom: 12% !important;
+}
+
+.pt60 {
+  padding-top: 60px;
 }
 
 .intro .container {

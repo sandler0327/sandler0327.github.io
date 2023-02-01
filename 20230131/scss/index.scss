@@ -94,6 +94,11 @@ section {
     background-color: #ccc;
     text-align: center;
     margin: 20px auto;
+     @include pad {
+    width: 300px;
+           
+        }
+
 }
 
 .text_a_j {
@@ -121,7 +126,9 @@ section {
 
 }
 
-
+.pt60{
+   padding-top: 60px;
+}
 
 .intro {
     .container {
